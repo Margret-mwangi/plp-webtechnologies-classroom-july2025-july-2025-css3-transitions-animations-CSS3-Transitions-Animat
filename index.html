@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSS + JS Animation Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>CSS3 Transitions & Animations with JavaScript</h1>
+
+  <!-- Part 1: Button with hover transition -->
+  <section id="part1">
+    <h2>Part 1: CSS Transitions & Animations</h2>
+    <button id="hoverBtn" class="btn">Hover Me!</button>
+
+    <div class="box continuous-rotate" title="Continuous rotate animation"></div>
+
+    <div class="box fade-slide" title="Fade and slide on hover">Hover me too!</div>
+  </section>
+
+  <!-- Part 3: Animation trigger -->
+  <section id="part3">
+    <h2>Part 3: Combining CSS Animations with JavaScript</h2>
+    
+    <button id="animateBoxBtn" class="btn">Animate Box</button>
+    <div id="animatedBox" class="box box-blue" title="Click button to animate me"></div>
+
+    <div id="card" class="card" title="Click to flip me">
+      <div class="card-inner">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back</div>
+      </div>
+    </div>
+
+    <button id="toggleLoadingBtn" class="btn">Start Loading Animation</button>
+    <div id="loading" class="loading-circle" title="Loading animation"></div>
+
+    <button id="openModalBtn" class="btn">Open Modal</button>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <p>This is a modal popup with slide & fade animation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Part 2: JavaScript Functions (demonstrated via console logs and interaction) -->
+  <section id="part2">
+    <h2>Part 2: JavaScript Functions — Scope, Parameters & Return Values</h2>
+    <p>Check the console for function outputs.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
